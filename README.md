@@ -11,6 +11,6 @@ Both Brent and WTI spot prices can be found on FRED, the Federal Reserve Bank of
 
 # Methodology
 
-The first job is clean the data. I cleaned the data using pandas, indexing the data by date and removing days they did not have in common. I then removed any day that was not traded on by either benchmark, so no NaN data in the dataframes as they cannot be plotted. The next step was to then plot the spread. Though, you will see I plotted both benchmarks too as I wanted to illustrate where the spread comes from and identify key events in the historical data. I then calculated the mean and standard deviation using the describe function. I shall explain a limitation of this later. The next step is to calculate a z-score using the historical mean and standard deviation. This shows us how far any spot oil price deviates from the historical mean as a multiple of the historic standard deviation.
+The first job is clean the data. I cleaned the data using pandas, indexing the data by date and removing days they did not have in common. I then removed any day that was not traded on by either benchmark, so no NaN data in the dataframes as they cannot be plotted. The next step was to then plot the spread. Though, you will see I plotted both benchmarks too as I wanted to illustrate where the spread comes from and identify key events in the historical data. I then calculated the mean and standard deviation using the describe function. I shall explain a limitation of this in the document. The next step is to calculate a z-score using the historical mean and standard deviation. This shows us how far any spot oil price deviates from the historical mean as a multiple of the historic standard deviation.
 
-# Findings
+Any and all findings can be found within the document.
